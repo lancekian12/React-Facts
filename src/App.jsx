@@ -1,12 +1,14 @@
 
 import './App.css'
-import TemporaryName from './components/TemporaryName'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 function App() {
 
   return (
     <>
-      <TemporaryName />
+      <Navbar />
+      <Main />
     </>
   )
 }
